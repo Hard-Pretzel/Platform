@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Game</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <!--js files-->
+    <script src="game.js" defer></script>
+    <script src="display.js" defer></script>
+
+    <canvas id="game-canvas" width="9" height="16" style="display: none;"></canvas>
+
+    <div id="size-err" style="display: none;">
+        <p>Sorry, your screen resolution is not large enough to run this (must have screen height of at least <span id="min-pixel-size"></span> pixels).</p>
+    </div>
+
+  </body>
+</html>
